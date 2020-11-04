@@ -20,6 +20,8 @@ df = df.groupby('State')[['Confirmed','Cured','Deaths']].first()
 at the latest is known, aslo written[['Confirmed','Cured','Deaths']] to get this columns.
 The state will now act like an index"""
 
+print(df.head(42))
+
 #plt.plot("x axis,y axis,color='',label='') to make graph 
 #plt.title("") To give title to the graph
 #plt.xlabel("") To give title to the x axis, similarly y.label for y axis
